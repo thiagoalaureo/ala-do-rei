@@ -89,7 +89,7 @@ main {
 main h1 {
     color: var(--cor1);
     font-family: var(--fonte-padrao);
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 1.8em;
 }
 
@@ -162,4 +162,15 @@ footer {
     text-align: center;
     font-size: 0.8em;
     padding: 5px;
+}
+
+
+footer a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: var(--cor3);
 }
