@@ -26,18 +26,32 @@ body {
 }
 
 header {
-    background-color: var(--cor2);
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor3));
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
     
-
 }
 
 header > h1 {
     color: white;
+    font-size: 3em;
+    font-weight: normal;
     font-family: var(--fonte-destaque);
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
 }
 
 header > p {
     color: white;
+    font-family: var(--fonte-padrao);
+    font-size: 1.8em;
+    max-width: 500px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
+    padding-bottom: 50px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
 }
 
 nav {
