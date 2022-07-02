@@ -89,8 +89,15 @@ main {
 main h1 {
     color: var(--cor1);
     font-family: var(--fonte-padrao);
-    font-weight: normal;
+    font-weight: bold;
     font-size: 1.8em;
+}
+
+main h2 {
+    color: var(--cor3);
+    font-family: var(--fonte-padrao);
+    font-weight: bold;
+    font-size: 1.5em;
 }
 
 main img {
